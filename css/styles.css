@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+
+/******** HEADER ******/
+.nav {
+  float: right;
+}
+
+.navbar {
+  border-radius: 0;
+  min-height: 75px;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+  padding: 10px;
+  padding-left: 30px;
+  min-height: 70px;
+}
+
+.navbar-brand > img {
+  border-radius: 100%;
+  z-index: -1; /*** Para que esté al fondo */
+}
+
+.navbar-collapse {
+  margin-top: 10px;
+}
+
+
+/******** END HEADER *******/
+
+
+/********* BODY **********/
+body {
+  width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background: url("/images/background2-1024.jpg");
+  /*background: url(/images/background2-large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+div h1 {
+  margin-top: 20%;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+
+div h2 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+
+/********* END BODY ********/
+
+
+
+/********** CONTACT PAGE ********/
+/*** Formulario ***/
+
+.form-group {
+  margin-top: 100px;
+}
+
+.col-lg-4, .btn {
+  float: right;
+  clear: both;
+
+}
+
+.btn {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/*** END Formulario ***/
+
+/***** Footer *****/
+.panel-footer {
+  margin-top: 237px;
+}
+#social-footer li {
+  float: right;
+}
+
+#social-footer a, #social-footer li, #contact-footer {
+  padding: 10px;
+  display: inline-block;
+  padding-left: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+/***** End Footer ****/
+
+/************ END CONTACT PAGE ********/

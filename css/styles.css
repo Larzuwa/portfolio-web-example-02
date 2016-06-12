@@ -67,6 +67,33 @@ div h2 {
   text-align: center;
 }
 
+.container {
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+
+div .col-lg-12 {
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+}
+
+div .col-lg-3 {
+  height: 350px;
+  margin: 0;
+  padding: 0;
+}
+
+div .col-lg-3 a {
+  height: 350px;
+}
+
+div .col-lg-3 a img {
+  height: 350px;
+  width: 350px;
+}
+
 /********* END BODY ********/
 
 
@@ -96,6 +123,11 @@ div h2 {
 .row p {
   margin: 50px;
   padding: 10px;
+}
+
+.section-contact {
+  background-color: white;
+  position: cover;
 }
 
 /*** END Formulario ***/

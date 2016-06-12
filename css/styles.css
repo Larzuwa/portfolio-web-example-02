@@ -25,6 +25,8 @@
 }
 
 .navbar-brand > img {
+  height: 50px;
+  width: 50px;
   border-radius: 100%;
   z-index: -1; /*** Para que esté al fondo */
 }
@@ -73,36 +75,68 @@ div h2 {
 /*** Formulario ***/
 
 .form-group {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
-.col-lg-4, .btn {
-  float: right;
+.col-lg-4{
+  margin-bottom: 25px;
   clear: both;
-
+  width: 100%;
 }
 
 .btn {
+  margin-bottom: 25px;
+  clear: both;
+  float: left;
   margin-top: 20px;
-  margin-right: 20px;
+  margin-left: 15px;
+  width: 50%;
+}
+
+.row p {
+  margin: 50px;
+  padding: 10px;
 }
 
 /*** END Formulario ***/
 
 /***** Footer *****/
 .panel-footer {
-  margin-top: 237px;
+  margin-top: 600px;
+  margin-left: 20px;
 }
-#social-footer li {
-  float: right;
+#social-footer {
+  margin-left: 20px;
 }
 
 #social-footer a, #social-footer li, #contact-footer {
   padding: 10px;
   display: inline-block;
-  padding-left: 20px;
+  /***padding-left: 20px;**/
   text-decoration: none;
   list-style: none;
+}
+
+#linkedin img {
+  clear: both;
+  height: 100px;
+  width: 100px;
+}
+
+#github img {
+  clear: both;
+  height: 100px;
+  width: 100px;
+}
+
+#tumblr img {
+  height: 100px;
+  width: 100px;
+}
+
+#twitter img {
+  height: 100px;
+  width: 100px;
 }
 
 /***** End Footer ****/

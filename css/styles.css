@@ -44,7 +44,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background: url("images/background2-1024.jpg");
+  background: url("/website/images/background2-1024.jpg");
   /*background: url(/images/background2-large.jpg);
   background-size: cover;
   background-repeat: no-repeat; */

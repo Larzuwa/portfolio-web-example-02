@@ -125,9 +125,9 @@ div .col-lg-3 a img {
   padding: 10px;
 }
 
-.section-contact {
+.col-lg-8 {
   background-color: white;
-  position: cover;
+  padding-bottom: 10px;
 }
 
 /*** END Formulario ***/

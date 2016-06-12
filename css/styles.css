@@ -82,6 +82,10 @@ div h2 {
 
 }
 
+.section-contact row {
+  background-color:white;
+}
+
 .btn {
   margin-top: 20px;
   margin-right: 20px;
